@@ -22,16 +22,40 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="maps lahan"
-                    android:layout_gravity="center"
-                    android:id="@+id/btnmapslahan"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/imgsatu"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/mapslahan"
+                            android:layout_gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btnmapslahan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:text="maps lahan"
+                            android:textSize="8dp"
+                            android:background="@color/white_tipis"/>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
 
 
             </LinearLayout>
@@ -39,16 +63,40 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="beli slot"
-                    android:layout_gravity="center"
-                    android:id="@+id/btntanammodal"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/imgdua"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/tanammodal"
+                            android:layout_gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btnbelislot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:text="beli slot"
+                            android:textSize="8dp"
+                            android:background="@color/white_tipis"/>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
 
 
             </LinearLayout>
@@ -56,16 +104,40 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tarik uang"
-                    android:layout_gravity="center"
-                    android:id="@+id/btntarikuang"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/imgtiga"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/tarikuang"
+                            android:layout_gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btntarikuang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:text="tarikuang"
+                            android:textSize="8dp"
+                            android:background="@color/white_tipis"/>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
 
 
             </LinearLayout>
@@ -82,11 +154,18 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
+
+
+
+                </RelativeLayout>
 
 
             </LinearLayout>
@@ -94,24 +173,48 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="verifikasi"
-                    android:layout_gravity="center"
-                    android:id="@+id/btnverifikasi"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/imgempat"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/verifikasi"
+                            android:layout_gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btnverifikasi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:text="verifikasi"
+                            android:textSize="8dp"
+                            android:background="@color/white_tipis"/>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
             </LinearLayout>
@@ -127,8 +230,8 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
 
@@ -137,8 +240,8 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
             </LinearLayout>
@@ -146,8 +249,8 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:layout_margin="0.3dp"
                 android:background="@color/white">
 
             </LinearLayout>

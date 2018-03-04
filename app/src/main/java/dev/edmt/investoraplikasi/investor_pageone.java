@@ -9,10 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import dev.edmt.investoraplikasi.chat.MainActivity;
+
 public class investor_pageone extends Fragment {
 
     private Button btnmapslahan;
-    private Button btntanammodal;
+    private Button btnbelislot;
     private Button btntarikuang;
     private Button btnverifikasi;
 
@@ -34,7 +36,7 @@ public class investor_pageone extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         this.view=view;
         btnmapslahan();
-        btntanammodal();
+        btnbelislot();
         btntarikuang();
         btnverifikasi();
 
@@ -51,9 +53,9 @@ public class investor_pageone extends Fragment {
         });
     }
 
-    private void btntanammodal() {
-        btntanammodal = (Button)view.findViewById(R.id.btntanammodal);
-        btntanammodal.setOnClickListener(new View.OnClickListener() {
+    private void btnbelislot() {
+        btnbelislot = (Button)view.findViewById(R.id.btnbelislot);
+        btnbelislot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),investor_belislot.class);
@@ -85,5 +87,7 @@ public class investor_pageone extends Fragment {
         });
 
     }
+
+
 
 }

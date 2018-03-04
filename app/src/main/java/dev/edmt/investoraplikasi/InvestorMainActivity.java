@@ -1,5 +1,6 @@
 package dev.edmt.investoraplikasi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,11 +16,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
+import dev.edmt.investoraplikasi.chat.ChatActivity;
+import dev.edmt.investoraplikasi.chat.MainActivity;
+
 public class InvestorMainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private ViewPager mViewPager;
     private investor_SectionsPagerAdapter mSectionsPagerAdapter;
+    private FirebaseAuth firebaseAuth;
 
     private TabLayout mTabLayout;
 
@@ -29,6 +37,13 @@ public class InvestorMainActivity extends AppCompatActivity
         setContentView(R.layout.investor_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        firebaseAuth = FirebaseAuth.getInstance();
+        if(firebaseAuth.getCurrentUser() == null){
+            finish();
+            startActivity(new Intent(this, dev.edmt.investoraplikasi.login.Login.class));
+        }
+
+        FirebaseUser user = firebaseAuth.getCurrentUser();
 
         //Tabs
         mViewPager = (ViewPager) findViewById(R.id.main_tabPager);
@@ -38,6 +53,9 @@ public class InvestorMainActivity extends AppCompatActivity
 
         mTabLayout = (TabLayout) findViewById(R.id.main_tabs);
         mTabLayout.setupWithViewPager(mViewPager);
+
+        final TabLayout.Tab facebook=mTabLayout.newTab();
+        final TabLayout.Tab youtube=mTabLayout.newTab();
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -68,10 +86,16 @@ public class InvestorMainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_custumerservice) {
+
+            startActivity(new Intent(InvestorMainActivity.this, ChatActivity.class));
             // Handle the camera action
         } else if (id == R.id.nav_tentang) {
 
         } else if (id == R.id.nav_logout) {
+            firebaseAuth.signOut();
+            finish();
+
+            startActivity(new Intent(InvestorMainActivity.this, dev.edmt.investoraplikasi.login.Login.class));
 
         }
 

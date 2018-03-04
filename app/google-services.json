@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "196508169706",
+    "firebase_url": "https://chatadminok.firebaseio.com",
+    "project_id": "chatadminok",
+    "storage_bucket": "chatadminok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196508169706:android:36383f58e8505249",
+        "android_client_info": {
+          "package_name": "dev.edmt.aplikasipetanifix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXDccI0Ml5WXLvHz7xCWlO0cpzBW4WxPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196508169706:android:64fcda983dc166a7",
+        "android_client_info": {
+          "package_name": "in.tvac.akshaye.lapitchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196508169706-ecqnqtkk8mtv2fsiii433i60tpfcselk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.tvac.akshaye.lapitchat",
+            "certificate_hash": "87b3ba1263fd43c06b66cff38fc26812b3422900"
+          }
+        },
+        {
+          "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXDccI0Ml5WXLvHz7xCWlO0cpzBW4WxPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196508169706:android:c96d972c1f5688d8",
+        "android_client_info": {
+          "package_name": "dev.edmt.investoraplikasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196508169706-v54ienul1odob4ods3jh4hf10l4ka44n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.edmt.investoraplikasi",
+            "certificate_hash": "87b3ba1263fd43c06b66cff38fc26812b3422900"
+          }
+        },
+        {
+          "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXDccI0Ml5WXLvHz7xCWlO0cpzBW4WxPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

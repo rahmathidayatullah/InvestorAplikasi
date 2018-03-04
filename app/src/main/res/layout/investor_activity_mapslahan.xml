@@ -76,7 +76,7 @@
                             android:layout_height="80dp"
                             android:layout_centerHorizontal="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/tigag" />
+                            android:src="@drawable/mapslahan" />
 
                     </RelativeLayout>
 
@@ -92,7 +92,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Tambah koordinat lahan"
+                        android:text="Maps Lahan"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -197,7 +197,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
+        app:headerLayout="@layout/investor_nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

@@ -65,11 +65,19 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.6">
 
-                        <ImageView
+                        <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/empatbelas" />
+
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerHorizontal="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/tarikuang" />
+
+                        </RelativeLayout>
 
 
                     </LinearLayout>
@@ -171,11 +179,13 @@
                         android:layout_height="wrap_content">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"
                             android:layout_alignParentRight="true"
                             android:layout_marginRight="20dp"
-                            android:text="Tarik" />
+                            android:text="Tarik"
+                            android:textSize="10sp"
+                            android:background="@color/ijo"/>
 
                     </RelativeLayout>
 
@@ -197,7 +207,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
+        app:headerLayout="@layout/investor_nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

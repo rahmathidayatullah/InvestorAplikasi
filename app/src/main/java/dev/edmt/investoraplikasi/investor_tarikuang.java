@@ -8,6 +8,6 @@ public class investor_tarikuang extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_investor_tarikuang);
+        setContentView(R.layout.investor_tarikuang);
     }
 }
